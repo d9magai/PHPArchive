@@ -1,0 +1,11 @@
+{
+    "name": "phparchive/phparchive",
+    "type": "library",
+    "version": "0.0.1",
+    "autoload": {
+        "psr-4": {
+            "PHPArchive\\Zip\\": "src/Zip"
+        }
+    }
+}
+
