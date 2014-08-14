@@ -5,7 +5,7 @@
  *
  * \ZipArchiveのラッパークラス
  */
-namespace Zip;
+namespace PHPArchive\Zip;
 
 class Archive
 {
