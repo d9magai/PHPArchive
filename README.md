@@ -4,6 +4,18 @@ Wrapper of ZipArchive class.
 
 ## API Example
 
+```php
+use PHPArchive\Zip\TmpArchive;
+
+// create TmpArchive
+$tmpArchive = TmpArchive(new \ZipArchive(), __DIR__ . '/tmp');
+// add file to tmpArchive
+$tmpArchive->addFile($filePath);
+// saving tmpArchive
+$tmpArchive->save();
+// get tmpArchive path
+$zipPath = $tmpArchive->getPath();
+```
 
 
 ##License
