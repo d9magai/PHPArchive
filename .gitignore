@@ -5,8 +5,7 @@
 /.settings
 
 # Composer
-/src/vendor
-/src/composer.lock
+/vendor
 
 # code coverage report
 /src/report
