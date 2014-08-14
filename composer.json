@@ -1,12 +1,12 @@
 {
-    "name": "phparchive/phparchive",
+    "name": "d9magai/phparchive",
     "type": "library",
     "keywords": ["zip", "tar", "bzip"],
     "license": "MIT",
     "version": "0.0.1",
     "autoload": {
         "psr-0": {
-            "PHPArchive": "."
+            "PHPArchive": "src/"
         }
     }
 }
