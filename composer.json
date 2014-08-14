@@ -1,6 +1,8 @@
 {
     "name": "phparchive/phparchive",
     "type": "library",
+    "keywords": ["zip", "tar", "bzip"],
+    "license": "MIT",
     "version": "0.0.1",
     "autoload": {
         "psr-4": {
