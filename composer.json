@@ -1,21 +1,25 @@
 {
-    "name": "d9magai/phparchive",
-    "type": "library",
-    "keywords": ["zip", "tar", "bzip"],
-    "license": "MIT",
-    "autoload": {
-        "psr-0": {
-            "PHPArchive": "src/"
-        }
-    },
-    "require-dev": {
-        "phpunit/phpunit": "*",
-        "phpunit/php-invoker": "*",
-        "phpunit/dbunit": "*",
-        "phpunit/phpunit-selenium": "*",
-        "phpunit/phpunit-story": "*",
-        "ocramius/instantiator": "*",
-        "piece/stagehand-testrunner": "*"
-    }
+   "name":"d9magai/phparchive",
+   "type":"library",
+   "keywords":[
+      "zip",
+      "tar",
+      "bzip"
+   ],
+   "license":"MIT",
+   "autoload":{
+      "psr-0":{
+         "PHPArchive":"src/"
+      }
+   },
+   "require-dev":{
+      "phpunit/phpunit":"*",
+      "phpunit/php-invoker":"*",
+      "phpunit/dbunit":"*",
+      "phpunit/phpunit-selenium":"*",
+      "phpunit/phpunit-story":"*",
+      "ocramius/instantiator":"*",
+      "piece/stagehand-testrunner":"*"
+   }
 }
 
