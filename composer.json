@@ -7,6 +7,15 @@
         "psr-0": {
             "PHPArchive": "src/"
         }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "phpunit/php-invoker": "*",
+        "phpunit/dbunit": "*",
+        "phpunit/phpunit-selenium": "*",
+        "phpunit/phpunit-story": "*",
+        "ocramius/instantiator": "*",
+        "piece/stagehand-testrunner": "*"
     }
 }
 
