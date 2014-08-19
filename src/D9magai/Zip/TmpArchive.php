@@ -5,7 +5,7 @@
  *
  * Zip 一時ファイルを作成するクラス
  */
-namespace PHPArchive\Zip;
+namespace D9magai\Zip;
 
 class TmpArchive extends Archive
 {

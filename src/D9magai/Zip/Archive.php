@@ -5,7 +5,7 @@
  *
  * \ZipArchiveのラッパークラス
  */
-namespace PHPArchive\Zip;
+namespace D9magai\Zip;
 
 class Archive
 {
@@ -34,7 +34,7 @@ class Archive
     /**
      * zipファイルを作成する
      *
-     * @throws PHPArchive\Zip\Exception
+     * @throws D9magai\Zip\Exception
      */
     protected function open()
     {
@@ -49,7 +49,7 @@ class Archive
      * ファイル追加
      *
      * @param string $file ファイルパス
-     * @throws PHPArchive\Zip\Exception
+     * @throws D9magai\Zip\Exception
      */
     public function addFile($file)
     {
@@ -70,7 +70,7 @@ class Archive
      *
      * @param string $binary 追加するファイルの内容
      * @param string $filename zip 内でのファイル名
-     * @throws PHPArchive\Zip\Exception
+     * @throws D9magai\Zip\Exception
      */
     public function addString($filename, $binary)
     {
@@ -95,7 +95,7 @@ class Archive
     /**
      * zip ファイル保存
      *
-     * @throws PHPArchive\Zip\Exception
+     * @throws D9magai\Zip\Exception
      */
     public function save()
     {
