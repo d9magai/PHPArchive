@@ -3,7 +3,7 @@
 /**
  * Zip ArchiveのExceptoin
  */
-namespace PHPArchive\Zip;
+namespace D9magai\Zip;
 
 class Exception extends \Exception
 {
