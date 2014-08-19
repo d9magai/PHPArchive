@@ -5,7 +5,7 @@ Wrapper of ZipArchive class.
 ## API Example
 
 ```php
-use PHPArchive\Zip\TmpArchive;
+use D9magai\Zip\TmpArchive;
 
 // create TmpArchive
 $tmpArchive = TmpArchive(new \ZipArchive(), __DIR__ . '/tmp');
